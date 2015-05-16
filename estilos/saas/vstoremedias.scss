@@ -34,17 +34,20 @@ $screen-lg-min:1200px;
   position: relative;
     .izq{
       float: left;
-      width: 50%;
+      width: 60%;
       height: 100%;
     }
     .te{
-      padding-top: 1em;
-      font-size: 4em;
+      padding-top: 4em;
+      font-size: 2em;
+      .sub{
+        font-size: 1.5em;
+      }
     }
     .der{
 
       float: right; 
-      width: 50%;
+      width: 40%;
       height: 100%;
       .mano{
         display:block;
@@ -58,24 +61,106 @@ $screen-lg-min:1200px;
       }
     }
   }
-  .grandes{
-    .box1 {
-        width: 55%;
-      }
-    .box2 {
-      width: 45%;
+  .rombo{
+    padding-top: 2em;
+    .columna{
+      vertical-align: top;
+        width: 50%;
+        display: inline-block;
+    }
+    .columna2{
+      vertical-align: top;
+        width: 40%;
+        display: inline-block;
     }
   }
-  .ali{
-    background-color: #f8f8f8;
-    padding: 7%;
-    height: 100%;
-    overflow:hidden;
-    .titulo{
+  .alianzas{
+    .tit{
       font-size: 2.5em;
-      color: #757575;
-      .sub{
-        color: #fc5935;
+    }
+    .cont{
+      .col1{
+        width: 40%;
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+      .col2{
+        margin-left: 4em;
+        vertical-align: top;
+        width: 40%;
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+    }
+  }
+  .beneficios{
+    .col{
+        width: 45%;
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+
+      }
+  }
+  .exito{
+    .tit{
+      font-size: 2.5em;
+    }
+    .cont{
+      .col{
+        width: 15%;
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+    }
+  }
+
+.ganancias{
+    padding-left: 20%;
+    padding-right: 20%;
+    .uno{
+        font-size: 1.8em;
+
+    }
+    .dos{
+        font-size: 1.4em;
+    }
+    .nar{
+        color: #ea4703;
+    }
+}
+  .cupon{
+    .col{
+        width: 40%;
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .col2{
+        padding-top: 6em;
+        width: 40%;
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+  }
+  .info{
+    .cont{
+      .col1{
+        width: 50%;
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
+      }
+      .col2{
+        text-align: right;
+        width: 30%;
+        display: inline-block;
+        padding-left: 1em;
+        padding-right: 1em;
       }
     }
   }
