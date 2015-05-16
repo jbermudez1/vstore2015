@@ -1,0 +1,88 @@
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  /* line 14, ../saas/vstoremedias.scss */
+  .bar {
+    height: 6em;
+  }
+  /* line 16, ../saas/vstoremedias.scss */
+  .bar .margen {
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+  /* line 19, ../saas/vstoremedias.scss */
+  .bar .margen .logo {
+    width: 30%;
+    float: left;
+    padding-top: 0.5em;
+  }
+  /* line 24, ../saas/vstoremedias.scss */
+  .bar .margen .menu {
+    display: block;
+    float: right;
+    width: 70%;
+    padding-top: 0.5em;
+  }
+
+  /* line 33, ../saas/vstoremedias.scss */
+  .banner {
+    position: relative;
+  }
+  /* line 35, ../saas/vstoremedias.scss */
+  .banner .izq {
+    float: left;
+    width: 50%;
+    height: 100%;
+  }
+  /* line 40, ../saas/vstoremedias.scss */
+  .banner .te {
+    padding-top: 1em;
+    font-size: 4em;
+  }
+  /* line 44, ../saas/vstoremedias.scss */
+  .banner .der {
+    float: right;
+    width: 50%;
+    height: 100%;
+  }
+  /* line 49, ../saas/vstoremedias.scss */
+  .banner .der .mano {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 3em;
+  }
+  /* line 55, ../saas/vstoremedias.scss */
+  .banner .der .mano img {
+    max-width: 80%;
+  }
+
+  /* line 62, ../saas/vstoremedias.scss */
+  .grandes .box1 {
+    width: 55%;
+  }
+  /* line 65, ../saas/vstoremedias.scss */
+  .grandes .box2 {
+    width: 45%;
+  }
+
+  /* line 69, ../saas/vstoremedias.scss */
+  .ali {
+    background-color: #f8f8f8;
+    padding: 7%;
+    height: 100%;
+    overflow: hidden;
+  }
+  /* line 74, ../saas/vstoremedias.scss */
+  .ali .titulo {
+    font-size: 2.5em;
+    color: #757575;
+  }
+  /* line 77, ../saas/vstoremedias.scss */
+  .ali .titulo .sub {
+    color: #fc5935;
+  }
+}
+/* Large devices (large desktops, 1200px and up) */

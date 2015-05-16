@@ -1,0 +1,87 @@
+$screen-sm-min:768px;
+$screen-md-min:992px;
+$screen-lg-min:1200px;
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: $screen-sm-min) { 
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: $screen-md-min) { 
+  .bar{
+    height:6em;
+    .margen{
+      padding-left: 3em;
+      padding-right: 3em;
+      .logo{
+        width: 30%;
+        float: left;
+        padding-top: 0.5em;
+      }
+      .menu{
+        display: block;
+        float: right;
+        width: 70%;      
+        padding-top: 0.5em;
+        
+      }
+    }
+}
+  .banner{
+  position: relative;
+    .izq{
+      float: left;
+      width: 50%;
+      height: 100%;
+    }
+    .te{
+      padding-top: 1em;
+      font-size: 4em;
+    }
+    .der{
+
+      float: right; 
+      width: 50%;
+      height: 100%;
+      .mano{
+        display:block;
+        position: absolute;
+        bottom: 0;
+        right: 3em;
+
+        img{
+          max-width: 80%;
+        }
+      }
+    }
+  }
+  .grandes{
+    .box1 {
+        width: 55%;
+      }
+    .box2 {
+      width: 45%;
+    }
+  }
+  .ali{
+    background-color: #f8f8f8;
+    padding: 7%;
+    height: 100%;
+    overflow:hidden;
+    .titulo{
+      font-size: 2.5em;
+      color: #757575;
+      .sub{
+        color: #fc5935;
+      }
+    }
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: $screen-lg-min) {
+
+}
