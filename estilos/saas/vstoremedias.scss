@@ -6,7 +6,50 @@ $screen-lg-min:1200px;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) { 
+  .beneficios{
+    height: 50%;
+    .col1{
+        margin-left: 2.5em;
+        width: 40%;
+        display: inline-block;
+        background-size: 70%;
 
+    }
+    .col2{
+        margin-left: 2.5em;
+        width: 40%;
+        display: inline-block;
+        background-size: 70%;
+
+    }
+    .col3{
+        margin-left: 2.5em;
+        width: 40%;
+        display: inline-block;
+        background-size: 70%;
+
+    }
+    .col4{
+        margin-left: 2.5em;
+        width: 40%;
+        display: inline-block;
+        background-size: 70%;
+
+    }
+    .cont{
+        clear: both;
+        position: relative;
+        overflow: hidden;
+      p{
+        color: white;
+        font-size: 0.8em;
+        padding-top: 2%;
+        padding-left: 42%;
+        line-height: 1.3em;
+      }
+    
+    }
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -96,14 +139,16 @@ $screen-lg-min:1200px;
     }
   }
   .beneficios{
-    .col{
-        width: 45%;
-        display: inline-block;
-        padding-left: 1em;
-        padding-right: 1em;
-
+    height: 50%;
+    .cont{
+      p{
+        font-size: 1em;
       }
+    
+    }
   }
+
+
   .exito{
     .tit{
       font-size: 2.5em;
@@ -118,20 +163,6 @@ $screen-lg-min:1200px;
     }
   }
 
-.ganancias{
-    padding-left: 20%;
-    padding-right: 20%;
-    .uno{
-        font-size: 1.8em;
-
-    }
-    .dos{
-        font-size: 1.4em;
-    }
-    .nar{
-        color: #ea4703;
-    }
-}
   .cupon{
     .col{
         width: 40%;
@@ -150,17 +181,18 @@ $screen-lg-min:1200px;
   .info{
     .cont{
       .col1{
-        width: 50%;
+        width: 30%;
         display: inline-block;
         padding-left: 1em;
         padding-right: 1em;
       }
       .col2{
         text-align: right;
-        width: 30%;
+        width: 50%;
         display: inline-block;
-        padding-left: 1em;
-        padding-right: 1em;
+        .tit{
+          font-size: 1.5em;
+        }
       }
     }
   }

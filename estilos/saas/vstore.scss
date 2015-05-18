@@ -152,7 +152,7 @@ body,html{
   padding: 7%;
   background-image: url(../../img/banner2.png); 
   background-size: cover;
-  height: 40%;
+  height: 100%;
   background-repeat:no-repeat;
   position: relative;
   min-height: 30%;
@@ -167,10 +167,44 @@ body,html{
     clear: both;
     position: relative;
     overflow: hidden;
-    .col{
+    p{
+        color: white;
+        font-size: 0.8em;
+        padding-top: 7%;
+        padding-left: 42%;
+        line-height: 1.3em;
+      }
+    .col1{
       padding-bottom: 1em;
-      padding: 1em;
-      background-color: white;
+      margin-top: 1em;
+      background-image: url(../../img/beneficio1.png); 
+      background-size: 100%;
+      background-repeat:no-repeat;
+      position: relative;      
+    }
+    .col2{
+      padding-bottom: 1em;
+      margin-top: 1em;
+      background-image: url(../../img/beneficio2.png); 
+      background-size: 100%;
+      background-repeat:no-repeat;
+      position: relative;      
+    }
+    .col3{
+      padding-bottom: 1em;
+      margin-top: 1em;
+      background-image: url(../../img/beneficio3.png); 
+      background-size: 100%;
+      background-repeat:no-repeat;
+      position: relative;      
+    }
+    .col4{
+      padding-bottom: 1em;
+      margin-top: 1em;
+      background-image: url(../../img/beneficio4.png); 
+      background-size: 100%;
+      background-repeat:no-repeat;
+      position: relative;      
     }
   }
 }
@@ -196,25 +230,7 @@ body,html{
     }
   }
 }
-.ganancias{
-  background-color: #cacaca;
-  p{
-    color: white;
-    text-align: center;
-    padding-top: 2em;
-    padding-bottom: 2em;
-  }
-  .uno{
-      font-size: 1.3em;
 
-    }
-    .dos{
-      font-size: 1.4em;
-    }
-    .nar{
-      color: #ea4703;
-    }
-}
 .cupon{
   padding: 7%;
   background-color: #f6f6f6;
@@ -245,42 +261,37 @@ body,html{
   
 }
 .info{
+  background-color: #dfdfdf;
   padding-left: 7%;
   padding-top: 2em;
   padding-right: 7%;
-  .tit{
-    font-size: 2.5em;
-
-  }
   .cont{
     clear: both;
     position: relative;
     overflow: hidden;
     .col1{
-      float:center;
-      padding: 0.5em;
+       vertical-align: top;
+     .tit{
+      color: white;
+      font-size: 2em;
+     }
     }
     .col2{
       float:center;
       padding: 0.5em;
       color: #a8a8a8;
-      .tel{
-        font-size: 1.4em;
-      }
-      .tel2{
-        font-size: 2em;
-        color: #ea4703;
-      }
-      .mail{
-        font-size: 1.3em;
-      }
-      .dire{
-        font-size: 0.7em;
+      .tit{
+        color: #6f6f6f;
+        font-size: 1em;
+        .sub{
+          font-size: 1.5em;
+        }
       }
     }
   }
 }
 footer{
+  font-size: 0.7em;
   text-align: center;
   color: white;
   background-color: #484848;

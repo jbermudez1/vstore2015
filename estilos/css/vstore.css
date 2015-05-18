@@ -182,7 +182,7 @@ body, html {
   padding: 7%;
   background-image: url(../../img/banner2.png);
   background-size: cover;
-  height: 40%;
+  height: 100%;
   background-repeat: no-repeat;
   position: relative;
   min-height: 30%;
@@ -203,63 +203,77 @@ body, html {
   overflow: hidden;
 }
 /* line 170, ../saas/vstore.scss */
-.beneficios .cont .col {
+.beneficios .cont p {
+  color: white;
+  font-size: 0.8em;
+  padding-top: 7%;
+  padding-left: 42%;
+  line-height: 1.3em;
+}
+/* line 177, ../saas/vstore.scss */
+.beneficios .cont .col1 {
   padding-bottom: 1em;
-  padding: 1em;
-  background-color: white;
+  margin-top: 1em;
+  background-image: url(../../img/beneficio1.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* line 185, ../saas/vstore.scss */
+.beneficios .cont .col2 {
+  padding-bottom: 1em;
+  margin-top: 1em;
+  background-image: url(../../img/beneficio2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* line 193, ../saas/vstore.scss */
+.beneficios .cont .col3 {
+  padding-bottom: 1em;
+  margin-top: 1em;
+  background-image: url(../../img/beneficio3.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+/* line 201, ../saas/vstore.scss */
+.beneficios .cont .col4 {
+  padding-bottom: 1em;
+  margin-top: 1em;
+  background-image: url(../../img/beneficio4.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
-/* line 177, ../saas/vstore.scss */
+/* line 211, ../saas/vstore.scss */
 .exito {
   padding: 7%;
   background-color: #ffffff;
 }
-/* line 182, ../saas/vstore.scss */
+/* line 216, ../saas/vstore.scss */
 .exito .tit {
   font-size: 2em;
   color: #757575;
 }
-/* line 185, ../saas/vstore.scss */
+/* line 219, ../saas/vstore.scss */
 .exito .tit .sub {
   color: #fc5935;
 }
-/* line 189, ../saas/vstore.scss */
+/* line 223, ../saas/vstore.scss */
 .exito .cont {
   text-align: center;
   clear: both;
   position: relative;
   overflow: hidden;
 }
-/* line 194, ../saas/vstore.scss */
+/* line 228, ../saas/vstore.scss */
 .exito .cont .col {
   padding: 0.5em;
 }
 
-/* line 199, ../saas/vstore.scss */
-.ganancias {
-  background-color: #cacaca;
-}
-/* line 201, ../saas/vstore.scss */
-.ganancias p {
-  color: white;
-  text-align: center;
-  padding-top: 2em;
-  padding-bottom: 2em;
-}
-/* line 207, ../saas/vstore.scss */
-.ganancias .uno {
-  font-size: 1.3em;
-}
-/* line 211, ../saas/vstore.scss */
-.ganancias .dos {
-  font-size: 1.4em;
-}
-/* line 214, ../saas/vstore.scss */
-.ganancias .nar {
-  color: #ea4703;
-}
-
-/* line 218, ../saas/vstore.scss */
+/* line 234, ../saas/vstore.scss */
 .cupon {
   padding: 7%;
   background-color: #f6f6f6;
@@ -269,75 +283,69 @@ body, html {
   position: relative;
   overflow: hidden;
 }
-/* line 227, ../saas/vstore.scss */
+/* line 243, ../saas/vstore.scss */
 .cupon .col {
   float: center;
   padding: 0.5em;
 }
-/* line 231, ../saas/vstore.scss */
+/* line 247, ../saas/vstore.scss */
 .cupon .col2 {
   vertical-align: top;
   float: center;
   padding: 0.5em;
 }
-/* line 235, ../saas/vstore.scss */
+/* line 251, ../saas/vstore.scss */
 .cupon .col2 .texto {
   text-align: left;
   color: #696969;
   line-height: 1.3em;
 }
-/* line 239, ../saas/vstore.scss */
+/* line 255, ../saas/vstore.scss */
 .cupon .col2 .texto .nar {
   color: #ea4703;
 }
 
-/* line 247, ../saas/vstore.scss */
+/* line 263, ../saas/vstore.scss */
 .info {
+  background-color: #dfdfdf;
   padding-left: 7%;
   padding-top: 2em;
   padding-right: 7%;
 }
-/* line 251, ../saas/vstore.scss */
-.info .tit {
-  font-size: 2.5em;
-}
-/* line 255, ../saas/vstore.scss */
+/* line 268, ../saas/vstore.scss */
 .info .cont {
   clear: both;
   position: relative;
   overflow: hidden;
 }
-/* line 259, ../saas/vstore.scss */
+/* line 272, ../saas/vstore.scss */
 .info .cont .col1 {
-  float: center;
-  padding: 0.5em;
+  vertical-align: top;
 }
-/* line 263, ../saas/vstore.scss */
+/* line 274, ../saas/vstore.scss */
+.info .cont .col1 .tit {
+  color: white;
+  font-size: 2em;
+}
+/* line 279, ../saas/vstore.scss */
 .info .cont .col2 {
   float: center;
   padding: 0.5em;
   color: #a8a8a8;
 }
-/* line 267, ../saas/vstore.scss */
-.info .cont .col2 .tel {
-  font-size: 1.4em;
+/* line 283, ../saas/vstore.scss */
+.info .cont .col2 .tit {
+  color: #6f6f6f;
+  font-size: 1em;
 }
-/* line 270, ../saas/vstore.scss */
-.info .cont .col2 .tel2 {
-  font-size: 2em;
-  color: #ea4703;
-}
-/* line 274, ../saas/vstore.scss */
-.info .cont .col2 .mail {
-  font-size: 1.3em;
-}
-/* line 277, ../saas/vstore.scss */
-.info .cont .col2 .dire {
-  font-size: 0.7em;
+/* line 286, ../saas/vstore.scss */
+.info .cont .col2 .tit .sub {
+  font-size: 1.5em;
 }
 
-/* line 283, ../saas/vstore.scss */
+/* line 293, ../saas/vstore.scss */
 footer {
+  font-size: 0.7em;
   text-align: center;
   color: white;
   background-color: #484848;
