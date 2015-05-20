@@ -48,13 +48,13 @@ body, html {
   display: none;
   width: 70%;
   color: #818181;
-  font-size: 1em;
+  font-size: 0.9em;
   overflow: hidden;
 }
 /* line 44, ../saas/vstore.scss */
 .bar .margen .menu li {
   padding-top: 1em;
-  padding-right: 7%;
+  padding-right: 6%;
   list-style: none;
   float: right;
 }
