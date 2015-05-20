@@ -6,6 +6,28 @@ $screen-lg-min:1200px;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) { 
+  /* --------------------------- INDEX ---------------------------- */
+  .bar{
+    .margen{
+      padding-left: 3em;
+      padding-right: 3em;
+      .logo{
+        width: 30%;
+        float: left;
+        padding-top: 0.5em;
+        img{
+          width: 80%;
+        }
+      }
+      .menu{
+        display: block;
+        float: right;
+        width: 70%;      
+        padding-top: 0.5em;
+        
+      }
+    }
+}
   .beneficios{
     height: 50%;
     .col1{
@@ -50,10 +72,29 @@ $screen-lg-min:1200px;
     
     }
   }
+  /* --------------------------- FIN INDEX ---------------------------- */
+
+  /* --------------------------- FIN INTERIOR ---------------------------- */
+
+  .contenido{
+    padding-top: 2em;
+    .columna{
+        vertical-align: top;
+        width: 30%;
+        display: inline-block;
+    }
+    .columna2{
+      vertical-align: top;
+        width: 30%;
+        display: inline-block;
+    }
+  }
+  /* --------------------------- FIN INTERIOR ---------------------------- */
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) { 
+  /* --------------------------- INDEX ---------------------------- */
   .bar{
     height:6em;
     .margen{
@@ -107,6 +148,7 @@ $screen-lg-min:1200px;
       }
     }
   }
+  
   .rombo{
     padding-top: 2em;
     .columna{
@@ -199,6 +241,54 @@ $screen-lg-min:1200px;
       }
     }
   }
+  /* --------------------------- FIN INDEX ---------------------------- */
+  /* --------------------------- INTERIOR ---------------------------- */
+  .banner2{
+    height: 7em;
+
+  }
+    
+  .titulo{
+    text-align: center;
+    .tit{
+      color: #d7d7d7;
+      font-size: 2.5em;
+      margin:0;
+      padding-top: 1.4em;
+      .punto{
+        color: #fc5935;
+        margin:0;
+      }
+    }
+    .sub{
+      color: #4c4c4c;
+      font-size: 1em;
+      .aqui{
+        color: #fc5935;
+      }
+    }
+  }
+  .separador{
+    padding-top: 2em;
+    hr{
+      color: #ebebeb;
+      width: 85%;
+    }
+  }
+  .rombo{
+    padding-top: 2em;
+    .columna{
+      vertical-align: top;
+        width: 50%;
+        display: inline-block;
+    }
+    .columna2{
+      vertical-align: top;
+        width: 40%;
+        display: inline-block;
+    }
+  }
+  /* --------------------------- FIN INTERIOR ---------------------------- */
 }
 
 /* Large devices (large desktops, 1200px and up) */
