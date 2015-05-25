@@ -345,7 +345,7 @@ body, html {
 }
 
 /* --------------------------- FIN INDEX ---------------------------- */
-/* --------------------------- INTERIOR ---------------------------- */
+/* --------------------------- CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
 /* line 301, ../saas/vstore.scss */
 .banner2 {
   background-color: #3fc0c0;
@@ -397,28 +397,48 @@ body, html {
   overflow: hidden;
 }
 /* line 339, ../saas/vstore.scss */
+.contenido .nar {
+  color: #fc5935;
+}
+/* line 342, ../saas/vstore.scss */
 .contenido .tit {
+  text-align: center;
   color: #fc5935;
   font-size: 1.4em;
 }
-/* line 343, ../saas/vstore.scss */
+/* line 347, ../saas/vstore.scss */
 .contenido .columna {
+  text-align: center;
   float: center;
   padding: 0.5em;
 }
-/* line 347, ../saas/vstore.scss */
+/* line 352, ../saas/vstore.scss */
 .contenido .columna2 {
   color: #4c4c4c;
   line-height: 1.6em;
 }
-/* line 350, ../saas/vstore.scss */
+/* line 355, ../saas/vstore.scss */
 .contenido .columna2 ul {
   color: #4c4c4c;
   font-size: 1em;
 }
+/* line 358, ../saas/vstore.scss */
+.contenido .columna2 ul ul {
+  color: #8f8f8f;
+}
+/* line 363, ../saas/vstore.scss */
+.contenido .componentes {
+  text-align: center;
+  float: center;
+  padding: 0.5em;
+}
+/* line 367, ../saas/vstore.scss */
+.contenido .componentes .espacio {
+  padding-top: 2em;
+}
 
-/* --------------------------- FIN INTERIOR ---------------------------- */
-/* line 360, ../saas/vstore.scss */
+/* --------------------------- FIN CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
+/* line 375, ../saas/vstore.scss */
 footer {
   font-size: 0.7em;
   text-align: center;

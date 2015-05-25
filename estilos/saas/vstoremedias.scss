@@ -74,11 +74,15 @@ $screen-lg-min:1200px;
   }
   /* --------------------------- FIN INDEX ---------------------------- */
 
-  /* --------------------------- FIN INTERIOR ---------------------------- */
+  /* --------------------------- CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
 
   .contenido{
     padding-top: 2em;
+    .tit{
+      text-align: left;
+    }
     .columna{
+        text-align: left;
         vertical-align: top;
         width: 30%;
         display: inline-block;
@@ -88,8 +92,13 @@ $screen-lg-min:1200px;
         width: 30%;
         display: inline-block;
     }
+    .componentes{    
+      vertical-align: top;
+      width: 23%;
+      display: inline-block;
+    }
   }
-  /* --------------------------- FIN INTERIOR ---------------------------- */
+  /* --------------------------- FIN CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -242,7 +251,7 @@ $screen-lg-min:1200px;
     }
   }
   /* --------------------------- FIN INDEX ---------------------------- */
-  /* --------------------------- INTERIOR ---------------------------- */
+  /* --------------------------- CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
   .banner2{
     height: 7em;
 
@@ -288,7 +297,7 @@ $screen-lg-min:1200px;
         display: inline-block;
     }
   }
-  /* --------------------------- FIN INTERIOR ---------------------------- */
+  /* --------------------------- FIN CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
 }
 
 /* Large devices (large desktops, 1200px and up) */

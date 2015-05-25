@@ -296,7 +296,7 @@ body,html{
 /* --------------------------- FIN INDEX ---------------------------- */
 
 
-/* --------------------------- INTERIOR ---------------------------- */
+/* --------------------------- CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
 
 .banner2{
   background-color: #3fc0c0;
@@ -336,11 +336,16 @@ body,html{
   clear: both;
   position: relative;
   overflow: hidden;
+  .nar{
+    color: #fc5935;
+  }
   .tit{
+    text-align: center;
     color: #fc5935;
     font-size: 1.4em;
   }
   .columna{    
+    text-align: center;
     float:center;
     padding: 0.5em;
   }
@@ -350,12 +355,22 @@ body,html{
     ul{
       color: #4c4c4c;
       font-size: 1em;
-      
+      ul{
+        color: #8f8f8f;
+      }
+    }
+  }
+  .componentes{    
+    text-align: center;
+    float:center;
+    padding: 0.5em;
+    .espacio{
+      padding-top: 2em;
     }
   }
 }
 
-/* --------------------------- FIN INTERIOR ---------------------------- */
+/* --------------------------- FIN CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
 
 footer{
   font-size: 0.7em;
