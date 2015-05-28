@@ -104,30 +104,39 @@
   }
 
   /* --------------------------- FIN CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
+  /* --------------------------- CLIENTES ---------------------------- */
+  /* line 105, ../saas/vstoremedias.scss */
+  .contenido .columna3 {
+    vertical-align: top;
+    width: 60%;
+    display: inline-block;
+  }
+
+  /* --------------------------- FIN CLIENTES ---------------------------- */
 }
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
   /* --------------------------- INDEX ---------------------------- */
-  /* line 107, ../saas/vstoremedias.scss */
+  /* line 119, ../saas/vstoremedias.scss */
   .bar {
     height: 6em;
   }
-  /* line 109, ../saas/vstoremedias.scss */
+  /* line 121, ../saas/vstoremedias.scss */
   .bar .margen {
     padding-left: 3em;
     padding-right: 3em;
   }
-  /* line 112, ../saas/vstoremedias.scss */
+  /* line 124, ../saas/vstoremedias.scss */
   .bar .margen .logo {
     width: 30%;
     float: left;
     padding-top: 0.5em;
   }
-  /* line 116, ../saas/vstoremedias.scss */
+  /* line 128, ../saas/vstoremedias.scss */
   .bar .margen .logo img {
     width: 80%;
   }
-  /* line 120, ../saas/vstoremedias.scss */
+  /* line 132, ../saas/vstoremedias.scss */
   .bar .margen .menu {
     display: block;
     float: right;
@@ -135,72 +144,72 @@
     padding-top: 0.5em;
   }
 
-  /* line 129, ../saas/vstoremedias.scss */
+  /* line 141, ../saas/vstoremedias.scss */
   .banner {
     position: relative;
   }
-  /* line 131, ../saas/vstoremedias.scss */
+  /* line 143, ../saas/vstoremedias.scss */
   .banner .izq {
     float: left;
     width: 60%;
     height: 100%;
   }
-  /* line 136, ../saas/vstoremedias.scss */
+  /* line 148, ../saas/vstoremedias.scss */
   .banner .te {
     padding-top: 4em;
     font-size: 2em;
   }
-  /* line 139, ../saas/vstoremedias.scss */
+  /* line 151, ../saas/vstoremedias.scss */
   .banner .te .sub {
     font-size: 1.5em;
   }
-  /* line 143, ../saas/vstoremedias.scss */
+  /* line 155, ../saas/vstoremedias.scss */
   .banner .der {
     float: right;
     width: 40%;
     height: 100%;
   }
-  /* line 148, ../saas/vstoremedias.scss */
+  /* line 160, ../saas/vstoremedias.scss */
   .banner .der .mano {
     display: block;
     position: absolute;
     bottom: 0;
     right: 3em;
   }
-  /* line 154, ../saas/vstoremedias.scss */
+  /* line 166, ../saas/vstoremedias.scss */
   .banner .der .mano img {
     max-width: 80%;
   }
 
-  /* line 161, ../saas/vstoremedias.scss */
+  /* line 173, ../saas/vstoremedias.scss */
   .rombo {
     padding-top: 2em;
   }
-  /* line 163, ../saas/vstoremedias.scss */
+  /* line 175, ../saas/vstoremedias.scss */
   .rombo .columna {
     vertical-align: top;
     width: 50%;
     display: inline-block;
   }
-  /* line 168, ../saas/vstoremedias.scss */
+  /* line 180, ../saas/vstoremedias.scss */
   .rombo .columna2 {
     vertical-align: top;
     width: 40%;
     display: inline-block;
   }
 
-  /* line 175, ../saas/vstoremedias.scss */
+  /* line 187, ../saas/vstoremedias.scss */
   .alianzas .tit {
     font-size: 2.5em;
   }
-  /* line 179, ../saas/vstoremedias.scss */
+  /* line 191, ../saas/vstoremedias.scss */
   .alianzas .cont .col1 {
     width: 40%;
     display: inline-block;
     padding-left: 1em;
     padding-right: 1em;
   }
-  /* line 185, ../saas/vstoremedias.scss */
+  /* line 197, ../saas/vstoremedias.scss */
   .alianzas .cont .col2 {
     margin-left: 4em;
     vertical-align: top;
@@ -210,20 +219,20 @@
     padding-right: 1em;
   }
 
-  /* line 195, ../saas/vstoremedias.scss */
+  /* line 207, ../saas/vstoremedias.scss */
   .beneficios {
     height: 50%;
   }
-  /* line 198, ../saas/vstoremedias.scss */
+  /* line 210, ../saas/vstoremedias.scss */
   .beneficios .cont p {
     font-size: 1em;
   }
 
-  /* line 207, ../saas/vstoremedias.scss */
+  /* line 219, ../saas/vstoremedias.scss */
   .exito .tit {
     font-size: 2.5em;
   }
-  /* line 211, ../saas/vstoremedias.scss */
+  /* line 223, ../saas/vstoremedias.scss */
   .exito .cont .col {
     width: 15%;
     display: inline-block;
@@ -231,14 +240,14 @@
     padding-right: 1em;
   }
 
-  /* line 221, ../saas/vstoremedias.scss */
+  /* line 233, ../saas/vstoremedias.scss */
   .cupon .col {
     width: 40%;
     display: inline-block;
     padding-left: 1em;
     padding-right: 1em;
   }
-  /* line 227, ../saas/vstoremedias.scss */
+  /* line 239, ../saas/vstoremedias.scss */
   .cupon .col2 {
     padding-top: 6em;
     width: 40%;
@@ -247,78 +256,78 @@
     padding-right: 1em;
   }
 
-  /* line 237, ../saas/vstoremedias.scss */
+  /* line 249, ../saas/vstoremedias.scss */
   .info .cont .col1 {
     width: 30%;
     display: inline-block;
     padding-left: 1em;
     padding-right: 1em;
   }
-  /* line 243, ../saas/vstoremedias.scss */
+  /* line 255, ../saas/vstoremedias.scss */
   .info .cont .col2 {
     text-align: right;
     width: 50%;
     display: inline-block;
   }
-  /* line 247, ../saas/vstoremedias.scss */
+  /* line 259, ../saas/vstoremedias.scss */
   .info .cont .col2 .tit {
     font-size: 1.5em;
   }
 
   /* --------------------------- FIN INDEX ---------------------------- */
   /* --------------------------- CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
-  /* line 255, ../saas/vstoremedias.scss */
+  /* line 267, ../saas/vstoremedias.scss */
   .banner2 {
     height: 7em;
   }
 
-  /* line 260, ../saas/vstoremedias.scss */
+  /* line 272, ../saas/vstoremedias.scss */
   .titulo {
     text-align: center;
   }
-  /* line 262, ../saas/vstoremedias.scss */
+  /* line 274, ../saas/vstoremedias.scss */
   .titulo .tit {
     color: #d7d7d7;
     font-size: 2.5em;
     margin: 0;
     padding-top: 1.4em;
   }
-  /* line 267, ../saas/vstoremedias.scss */
+  /* line 279, ../saas/vstoremedias.scss */
   .titulo .tit .punto {
     color: #fc5935;
     margin: 0;
   }
-  /* line 272, ../saas/vstoremedias.scss */
+  /* line 284, ../saas/vstoremedias.scss */
   .titulo .sub {
     color: #4c4c4c;
     font-size: 1em;
   }
-  /* line 275, ../saas/vstoremedias.scss */
+  /* line 287, ../saas/vstoremedias.scss */
   .titulo .sub .aqui {
     color: #fc5935;
   }
 
-  /* line 280, ../saas/vstoremedias.scss */
+  /* line 292, ../saas/vstoremedias.scss */
   .separador {
     padding-top: 2em;
   }
-  /* line 282, ../saas/vstoremedias.scss */
+  /* line 294, ../saas/vstoremedias.scss */
   .separador hr {
     color: #ebebeb;
     width: 85%;
   }
 
-  /* line 287, ../saas/vstoremedias.scss */
+  /* line 299, ../saas/vstoremedias.scss */
   .rombo {
     padding-top: 2em;
   }
-  /* line 289, ../saas/vstoremedias.scss */
+  /* line 301, ../saas/vstoremedias.scss */
   .rombo .columna {
     vertical-align: top;
     width: 50%;
     display: inline-block;
   }
-  /* line 294, ../saas/vstoremedias.scss */
+  /* line 306, ../saas/vstoremedias.scss */
   .rombo .columna2 {
     vertical-align: top;
     width: 40%;
