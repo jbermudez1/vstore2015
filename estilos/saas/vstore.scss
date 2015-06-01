@@ -11,6 +11,17 @@ body,html{
   height: 100%;
 }
 
+a{
+  text-decoration: none;
+  &:visited{
+    color:#818181;
+  }
+  &:hover{
+    color:#ea4703;
+  }
+    
+}
+
 .margenes{
   width: 80%;
   background-color: red;
@@ -371,6 +382,29 @@ body,html{
 }
 
 /* --------------------------- FIN CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
+
+/* --------------------------- COMPONENTES ---------------------------- */
+
+.compi{
+  padding-left: 30%;
+  padding-right: 30%;
+  text-align: center;
+  clear: both;
+  position: relative;
+  overflow: hidden;
+  .columna{    
+    text-align: center;
+    float:center;
+    padding: 0.5em;
+  }
+  p{
+    font-size: 0.9em;
+    color:#818181;
+  }
+}
+
+/* --------------------------- FIN COMPONENTES ---------------------------- */
+
 
 footer{
   font-size: 0.7em;

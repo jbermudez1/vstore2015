@@ -335,5 +335,18 @@
   }
 
   /* --------------------------- FIN CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
+  /* --------------------------- COMPONENTES ---------------------------- */
+  /* line 315, ../saas/vstoremedias.scss */
+  .compi {
+    padding-top: 2em;
+  }
+  /* line 317, ../saas/vstoremedias.scss */
+  .compi .columna {
+    text-align: center;
+    width: 25%;
+    display: inline-block;
+  }
+
+  /* --------------------------- FIN COMPONENTES ---------------------------- */
 }
 /* Large devices (large desktops, 1200px and up) */

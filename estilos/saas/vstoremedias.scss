@@ -310,6 +310,23 @@ $screen-lg-min:1200px;
     }
   }
   /* --------------------------- FIN CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
+  /* --------------------------- COMPONENTES ---------------------------- */
+
+  .compi{
+    padding-top: 2em;
+    .columna{
+        text-align: center;
+       
+        width: 25%;
+        display: inline-block;
+    }
+  }
+
+  /* --------------------------- FIN COMPONENTES ---------------------------- */
+
+
+
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
