@@ -111,6 +111,34 @@ $screen-lg-min:1200px;
 
 
   /* --------------------------- FIN CLIENTES ---------------------------- */
+
+
+  /* --------------------------- SOPORTE ---------------------------- */
+  .contenido{
+    .sop{
+      vertical-align: top;
+        width: 49%;
+        display: inline-block;
+        padding-top: 0em;
+    }
+  }
+
+
+  /* --------------------------- FIN SOPORTE ---------------------------- */
+
+  /* --------------------------- DISTRIBUIDORES ---------------------------- */
+
+  .contenido{
+    .distri{
+      vertical-align: top;
+      width: 60%;
+      display: inline-block;
+    }
+  }
+
+  /* --------------------------- FIN DISTRIBUIDORES ---------------------------- */
+
+
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -323,6 +351,8 @@ $screen-lg-min:1200px;
   }
 
   /* --------------------------- FIN COMPONENTES ---------------------------- */
+
+
 
 
 
