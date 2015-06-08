@@ -122,7 +122,7 @@ a:hover {
 
 /* line 108, ../saas/vstore.scss */
 .rombo {
-  padding: 7%;
+  padding: 11%;
   margin-top: 1em;
   text-align: left;
   clear: both;
@@ -147,7 +147,7 @@ a:hover {
 
 /* line 129, ../saas/vstore.scss */
 .alianzas {
-  padding: 7%;
+  padding: 11%;
   background-color: #f8f8f8;
 }
 /* line 132, ../saas/vstore.scss */
@@ -194,13 +194,13 @@ a:hover {
 
 /* line 165, ../saas/vstore.scss */
 .beneficios {
-  padding: 7%;
+  padding: 11%;
   background-image: url(../../img/banner2.png);
   background-size: cover;
   height: 100%;
   background-repeat: no-repeat;
   position: relative;
-  min-height: 30%;
+  min-height: 50%;
 }
 /* line 173, ../saas/vstore.scss */
 .beneficios .tit {
@@ -221,7 +221,7 @@ a:hover {
 .beneficios .cont p {
   color: white;
   font-size: 0.8em;
-  padding-top: 7%;
+  padding-top: 8%;
   padding-left: 42%;
   line-height: 1.3em;
 }
@@ -264,7 +264,7 @@ a:hover {
 
 /* line 225, ../saas/vstore.scss */
 .exito {
-  padding: 7%;
+  padding: 11%;
   background-color: #ffffff;
 }
 /* line 230, ../saas/vstore.scss */
@@ -290,7 +290,7 @@ a:hover {
 
 /* line 248, ../saas/vstore.scss */
 .cupon {
-  padding: 7%;
+  padding: 11%;
   background-color: #f6f6f6;
   padding-top: 2em;
   text-align: center;
@@ -323,9 +323,9 @@ a:hover {
 /* line 277, ../saas/vstore.scss */
 .info {
   background-color: #dfdfdf;
-  padding-left: 7%;
+  padding-left: 11%;
   padding-top: 2em;
-  padding-right: 7%;
+  padding-right: 11%;
 }
 /* line 282, ../saas/vstore.scss */
 .info .cont {
@@ -404,7 +404,7 @@ a:hover {
 
 /* line 345, ../saas/vstore.scss */
 .contenido {
-  padding: 7%;
+  padding: 11%;
   text-align: left;
   clear: both;
   position: relative;
