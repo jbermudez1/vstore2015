@@ -27,6 +27,18 @@
         }
       }
   }*/
+  .te {
+    text-align: left;
+    padding-top: 4em;
+    color: white;
+    float: left;
+    font-size: 3.3em;
+    line-height: 1em; }
+    .te .sub {
+      font-size: 1em;
+      line-height: 1em;
+      font-weight: 100; }
+
   .beneficios .col1 {
     margin-left: 2.5em;
     width: 40%;
