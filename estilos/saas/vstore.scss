@@ -21,7 +21,13 @@ a{
   }
     
 }
-
+.tit {
+  line-height: 1em;
+}
+section {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
 .margenes{
   width: 80%;
   background-color: red;
@@ -34,7 +40,6 @@ a{
 
 .bar{
     background-color: rgba(255, 255, 255, 1);
-    height:4em;   
     position: absolute;
     z-index: 99;
     width: 100%;
@@ -42,71 +47,75 @@ a{
       padding-left: 3em;
       padding-right: 3em;
       .logo{
-        max-width: 350px;
+        max-width: 250px;
         padding-top: 0.2em; 
         width: 100%;
         float: left;
       }
       .menu{
-        display: none;
+        
         width: 80%;      
         color: #818181;
-        font-size: 0.65em;
+        font-size: 1em;
         overflow: hidden;
+        padding-top: 1.5em;
         li{
          
-          padding-top: 3em;
-          padding-right: 4%;
+          padding-right: 1em;
           list-style:none;
           float: right;
         }
       }
     }
 }
-
-/* --------------------------- INDEX ---------------------------- */
+.bannerContainer {
+  height: 60%;
+  /*background-color: yellow;*/
+}
 .banner{
+  /*display: none;*/
   background-image: url(../../img/banner.svg); 
   background-size: cover;
-  height: 80%;
+  background-position: center;
+  height: 100%;
   background-repeat:no-repeat;
   position: relative;
-  min-height: 90%;
-  .izq{
-    float: left;
-    width: 100%;
-    height: 100%;
-    padding-top: 7em;
+}
+.banner2{
+  display: none;
+  background-image: url(../../img/banner22.png); 
+  background-color: red;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-repeat:no-repeat;
+  position: relative;
+}
+.banner3{
+  display: none;
+  background-image: url(../../img/banner3.png); 
+  background-color: purple;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  background-repeat:no-repeat;
+  position: relative;
+}
 
-  }
   .te{
+    text-align: center;
+    padding-top: 3em;
       color: white;
       float: left;
-      font-size:  1.2em;
-      line-height: 1.3em;
+      font-size:  2em;
+      line-height: 1em;
       .sub{
-        font-size: 1.9em;
+        font-size: 1em;
         line-height: 1em;
+        font-weight: 100;
       }
     }
-  .der{
-    float: right; 
-    width: 50%;
-    height: 100%;
-    .mano{
-      display: none;
-      position: absolute;
-      bottom: 0;
-      right: 3em;
-
-      img{
-        max-width: 80%;
-      }
-    }
-  }
-}
 .rombo{
-  padding: 11%;
   margin-top: 1em;
   text-align: left;
   clear: both;
@@ -117,17 +126,17 @@ a{
     float:center;
     padding: 0.5em;
     .tit{
-      font-size: 1.5em;
+      font-size:2.5em;
       color:#fc5935;
     }
     .sub{
       font-size: 2em;
       color: #757575;
+      line-height: 1em;
     }
   }
 }
 .alianzas{
-  padding: 11%;
   background-color: #f8f8f8;
   .tit{
     font-size: 2em;
@@ -163,13 +172,11 @@ a{
   }
 }
 .beneficios{
-  padding: 11%;
   background-image: url(../../img/banner2.png); 
   background-size: cover;
-  height: 100%;
   background-repeat:no-repeat;
   position: relative;
-  min-height: 50%;
+ 
   .tit{
     font-size: 2em;
     color:#757575;
@@ -223,7 +230,6 @@ a{
   }
 }
 .exito{
-  padding: 11%;
   background-color: #ffffff;
 
   
@@ -305,16 +311,7 @@ a{
   }
 }
 
-/* --------------------------- FIN INDEX ---------------------------- */
 
-
-/* --------------------------- CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
-
-.banner2{
-  background-color: #3fc0c0;
-  height: 4.5em;
-
-}
 .titulo{
   text-align: center;
   .tit{
@@ -382,9 +379,7 @@ a{
   }
 }
 
-/* --------------------------- FIN CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
 
-/* --------------------------- COMPONENTES ---------------------------- */
 
 .compi{
   padding-left: 30%;
@@ -404,9 +399,6 @@ a{
   }
 }
 
-/* --------------------------- FIN COMPONENTES ---------------------------- */
-
-/* --------------------------- SOPORTE ---------------------------- */
 .sop{
   text-align: center;
   padding-top: 2em;
@@ -429,9 +421,7 @@ a{
     font-size: 1.3em;
   }
 }
-/* --------------------------- FIN SOPORTE ---------------------------- */
 
-/* --------------------------- DISTRIBUCIÓN ---------------------------- */
 .distri{
   hr{
     color: #ebebeb;
@@ -462,9 +452,6 @@ a{
 }
 
 
-/* --------------------------- FIN DISTRIBUCIÓN ---------------------------- */
-
-/* --------------------------- VERSIONES ---------------------------- */
 
 .distri{
   table{
@@ -496,14 +483,24 @@ a{
   }
 }
 
-/* --------------------------- FIN VERSIONES ---------------------------- */
-
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 footer{
   font-size: 0.7em;
   text-align: center;
-  color: white;
-  background-color: #484848;
+  color: gray;
   padding: 1em;
 }
   

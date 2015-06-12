@@ -6,8 +6,11 @@ $screen-lg-min:1200px;
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: $screen-sm-min) { 
-  /* --------------------------- INDEX ---------------------------- */
-  .bar{
+  section {
+  padding-top: 6em;
+  padding-bottom: 6em;
+  }
+/*  .bar{
     .margen{
       padding-left: 3em;
       padding-right: 3em;
@@ -27,9 +30,8 @@ $screen-lg-min:1200px;
         
       }
     }
-}
+}*/
   .beneficios{
-    height: 50%;
     .col1{
         margin-left: 2.5em;
         width: 40%;
@@ -72,9 +74,7 @@ $screen-lg-min:1200px;
     
     }
   }
-  /* --------------------------- FIN INDEX ---------------------------- */
 
-  /* --------------------------- CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
 
   .contenido{
     padding-top: 2em;
@@ -98,9 +98,7 @@ $screen-lg-min:1200px;
       display: inline-block;
     }
   }
-  /* --------------------------- FIN CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
 
-  /* --------------------------- CLIENTES ---------------------------- */
   .contenido{
     .columna3{
       vertical-align: top;
@@ -110,10 +108,6 @@ $screen-lg-min:1200px;
   }
 
 
-  /* --------------------------- FIN CLIENTES ---------------------------- */
-
-
-  /* --------------------------- SOPORTE ---------------------------- */
   .contenido{
     .sop{
       vertical-align: top;
@@ -124,9 +118,6 @@ $screen-lg-min:1200px;
   }
 
 
-  /* --------------------------- FIN SOPORTE ---------------------------- */
-
-  /* --------------------------- DISTRIBUIDORES ---------------------------- */
 
   .contenido{
     .distri{
@@ -136,15 +127,14 @@ $screen-lg-min:1200px;
     }
   }
 
-  /* --------------------------- FIN DISTRIBUIDORES ---------------------------- */
+
 
 
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: $screen-md-min) { 
-  /* --------------------------- INDEX ---------------------------- */
-  .bar{
+/*  .bar{
     height:6em;
     .margen{
       padding-left: 3em;
@@ -165,8 +155,8 @@ $screen-lg-min:1200px;
         
       }
     }
-}
-  .banner{
+}*/
+/*  .banner{
   position: relative;
     .izq{
       float: left;
@@ -180,24 +170,8 @@ $screen-lg-min:1200px;
         font-size: 1.5em;
       }
     }
-    .der{
-
-      float: right; 
-      width: 40%;
-      height: 100%;
-      .mano{
-        display:block;
-        position: absolute;
-        bottom: 0;
-        right: 3em;
-
-        img{
-          max-width: 80%;
-        }
-      }
-    }
   }
-  
+  */
   .rombo{
     padding-top: 2em;
     .columna{
@@ -233,7 +207,6 @@ $screen-lg-min:1200px;
     }
   }
   .beneficios{
-    height: 80%;
     .cont{
       p{
         font-size: 1em;
@@ -290,12 +263,7 @@ $screen-lg-min:1200px;
       }
     }
   }
-  /* --------------------------- FIN INDEX ---------------------------- */
-  /* --------------------------- CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
-  .banner2{
-    height: 7em;
 
-  }
     
   .titulo{
     text-align: center;
@@ -337,8 +305,7 @@ $screen-lg-min:1200px;
         display: inline-block;
     }
   }
-  /* --------------------------- FIN CARACTERÍSTICAS Y BENEFICIOS ---------------------------- */
-  /* --------------------------- COMPONENTES ---------------------------- */
+
 
   .compi{
     padding-top: 2em;
@@ -350,7 +317,6 @@ $screen-lg-min:1200px;
     }
   }
 
-  /* --------------------------- FIN COMPONENTES ---------------------------- */
 
 
 
