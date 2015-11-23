@@ -1,7 +1,7 @@
 /* Extra small devices (phones, less than 768px) */
 /* No media query since this is the default in Bootstrap */
 /* Small devices (tablets, 768px and up) */
-@media (min-width: 768px) {
+@media (min-width: 700px) {
   section {
     padding-top: 6em;
     padding-bottom: 6em; }
@@ -69,6 +69,14 @@
       padding-top: 2%;
       padding-left: 42%;
       line-height: 1.3em; }
+    .beneficios .cont .col1 {
+      background-image: url(../../img/beneficio1-1.png); }
+    .beneficios .cont .col2 {
+      background-image: url(../../img/beneficio2-1.png); }
+    .beneficios .cont .col3 {
+      background-image: url(../../img/beneficio3-1.png); }
+    .beneficios .cont .col4 {
+      background-image: url(../../img/beneficio4-1.png); }
 
   .contenido {
     padding-top: 2em; }
@@ -244,5 +252,3 @@
       width: 25%;
       display: inline-block; } }
 /* Large devices (large desktops, 1200px and up) */
-
-/*# sourceMappingURL=vstoremedias.css.map */

@@ -243,7 +243,7 @@ section {
     .info .cont .col1 {
       vertical-align: top; }
       .info .cont .col1 .tit {
-        color: gray;
+        color: white;
         font-size: 2em; }
     .info .cont .col2 {
       float: center;
@@ -399,10 +399,3 @@ footer {
   text-align: center;
   color: gray;
   padding: 1em; }
-
-.telefonos{
-  font-size: 2.5em;
-  color: #ea4703;
-}
-
-/*# sourceMappingURL=vstore.css.map */

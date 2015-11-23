@@ -1,4 +1,4 @@
-$screen-sm-min:768px;
+$screen-sm-min:700px;
 $screen-md-min:992px;
 $screen-lg-min:1200px;
 /* Extra small devices (phones, less than 768px) */
@@ -83,6 +83,18 @@ $screen-lg-min:1200px;
         padding-top: 2%;
         padding-left: 42%;
         line-height: 1.3em;
+      }
+      .col1{
+        background-image: url(../../img/beneficio1-1.png); 
+      }
+      .col2{
+        background-image: url(../../img/beneficio2-1.png); 
+      }
+      .col3{
+        background-image: url(../../img/beneficio3-1.png); 
+      }
+      .col4{
+        background-image: url(../../img/beneficio4-1.png); 
       }
     
     }
