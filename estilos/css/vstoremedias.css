@@ -246,9 +246,12 @@
       display: inline-block; }
 
   .compi {
+    padding-left: 37%;
+    padding-right: 28%;
     padding-top: 2em; }
     .compi .columna {
       text-align: center;
+      float: center;
       width: 25%;
       display: inline-block; } }
 /* Large devices (large desktops, 1200px and up) */

@@ -333,10 +333,12 @@ $screen-lg-min:1200px;
 
 
   .compi{
+    padding-left: 37%;
+    padding-right: 28%;
     padding-top: 2em;
     .columna{
         text-align: center;
-       
+        float: center;
         width: 25%;
         display: inline-block;
     }

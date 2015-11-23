@@ -386,16 +386,18 @@ section {
 
 
 .compi{
-  padding-left: 30%;
-  padding-right: 30%;
+  padding-left: 5%;
+  padding-right: 5%;
   text-align: center;
   clear: both;
   position: relative;
   overflow: hidden;
-  .columna{    
+  .columna{   
+    float: left; 
     text-align: center;
-    float:center;
     padding: 0.5em;
+    width: 30%;
+
   }
   p{
     font-size: 0.9em;
