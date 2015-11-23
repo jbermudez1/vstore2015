@@ -243,7 +243,7 @@ section {
     .info .cont .col1 {
       vertical-align: top; }
       .info .cont .col1 .tit {
-        color: white;
+        color: gray;
         font-size: 2em; }
     .info .cont .col2 {
       float: center;
